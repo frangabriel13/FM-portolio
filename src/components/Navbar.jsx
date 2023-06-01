@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className={s.container}>
         <a href="#home" className={s.logo}>Franco.</a>
-        <div className='bx bx-menu' id='menu-icon'></div>
+        <div className={`bx bx-menu ${s.menuIcon}`} id='menu-icon'></div>
         <nav className={s.navbar}>
             <a href="#home" className={s.active}>Inicio</a>
             <a href="#about">Sobre mí</a>
