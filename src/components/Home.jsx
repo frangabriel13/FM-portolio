@@ -5,9 +5,9 @@ function Home() {
   return (
     <div className={`${s.homeContainer} ${s.home}`} id='home'>
       <div className={s.homeContent}>
-        <h1>Hola, soy <span>Franco Mansilla</span></h1>
+        <h1>Hola, soy <span>Fran</span></h1>
         <div className={s.textAnimate}>
-          <h3>Fullstack developer</h3>
+          <h3>Developer</h3>
         </div>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -19,6 +19,12 @@ function Home() {
           <a href="#" className={s.btn}>Descarga CV</a>
         </div>
       </div>
+      <div className={s.homeSci}>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+      </div>
+      <div className={s.homeImgHover}></div>
     </div>
   );
 }
