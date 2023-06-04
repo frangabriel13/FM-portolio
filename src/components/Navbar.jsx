@@ -3,7 +3,7 @@ import s from './Navbar.module.css';
 
 function Navbar() {
   return (
-    <div className={s.container}>
+    <div className={s.container} id='header'>
         <a href="#home" className={s.logo}>Franco.</a>
         <div className={`bx bx-menu ${s.menuIcon}`} id='menu-icon'></div>
         <nav className={s.navbar}>
